@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign In | BookWorm</title>
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/account.css">
+    </head>
+
+    <body>
+
+        <!-- SignIn -->
+        <div class="containAcc">
+            <div class="account-form">
+                <form name="signIn" id="signIn" action="home.html">
+                    <h1>Sign In</h1>
+                    <p>
+                        Already have an account? Sign In or
+                        <a href="signUp.html">Sign Up</a>
+                    </p>
+
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter Email" id="uEmail" name="uEmail" required />
+
+                    <label for="psw">Password</label>
+                    <input
+                        type="password"
+                        placeholder="Enter Password"
+                        id="psw"
+                        name="psw"
+                        required
+                    />
+
+                    <div id="signIn_error" class="signMsg">
+                        <h3>Email and/or password may be incorrect.</h3>
+                    </div>
+
+                    <a href="forgot.html">Forgot Password?</a>
+
+                    <div class="buttons">
+                        <button type="reset" class="cancelbtn">Cancel</button>
+                        <button type="button" class="signinbtn" onclick="signInSubmit()">Sign In</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <a href=""><img src="images/Playstore.png" /></a>
+                    <a href=""><img src="images/Applestore.png" /></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo.png" />
+                <p>
+                Cultivating bookworms by bringing the joy of reading to everyone
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                <li><a href="">Coupons</a></li>
+                <li><a href="">Blog Post</a></li>
+                <li><a href="">Return Policy</a></li>
+                <li><a href="">Join Our Team</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Youtube</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Twitterr</a></li>
+                </ul>
+            </div>
+            </div>
+            <hr />
+            <p class="copyright">Copyright 2024 - BookWorm</p>
+        </div>
+    </div>
+
+        <!-- toggle account havascript-->
+        <script type="text/javascript" src="./js/signIn.js"></script>
+
+    </body>
+
+</html>

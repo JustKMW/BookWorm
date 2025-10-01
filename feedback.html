@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Feedback | BookWorm</title>
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/feedback.css"/>
+    </head>
+
+    <body>
+    <!------------------ Header ------------------>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="home.html">
+                        <img src="images/logo.png" alt="BookWormLogo">
+                    </a>
+                </div>
+                <!----------  Nav Bar ------------------>
+                <nav>
+                <ul id="MenuItems">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="product/fiction.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="signIn.html" style = "color: red;" onclick="return confirm('Are you SURE you want to Sign Out?');">[Sign Out]</a></li>
+                </ul>
+                </nav>
+                <a href="feedback/cart.html">
+                    <img id="cart-img" src="images/cart.png" alt="Shopping Cart"/>
+                </a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+            </div>
+        </div>
+    </header>
+
+    <section class="feedbacks">
+        <h1>Feedbacks</h1>
+        
+        <div class="feedDetails">
+            <div class="custFeed">
+                <h3>Ast Rickley</h3> 
+                <p>
+                    We&apos;re no strangers to books. You know the rules, and so do I. Dont judge by covers what I&apos;m thinking of. 
+                    You wouldn't get this from any other store. I just wanna tell you how I&apos;m feeling. Gotta make you understand.
+                    This bookstore never gonna give you up, never gonna let you down.
+                </p>
+                <br>
+                <div class="rating">
+                    <p><b>Service Rating &nbsp;</b></p>
+                    <label class="stars"><input type="radio" name="star0" value="1" disabled/></label>
+                    <label class="stars"><input type="radio" name="star0" value="2" disabled/></label>
+                    <label class="stars"><input type="radio" name="star0" value="3" disabled/></label>
+                    <label class="stars"><input type="radio" name="star0" value="4" disabled/></label>
+                    <label class="stars"><input type="radio" name="star0" value="5" checked disabled/></label>
+                 </div>
+            </div>
+            <div class="custFeed">
+                <h3>Speed</h3> 
+                <p>
+                    No cap the service SLAPS!!! Updates their product list monthly according to what's hot on the tray. <br>
+                    LE &apos;EM COOK!
+                </p>
+                <br>
+                <div class="rating">
+                    <p><b>Service Rating &nbsp;</b></p>
+                    <label class="stars"><input type="radio" name="star1" value="1" disabled/></label>
+                    <label class="stars"><input type="radio" name="star1" value="2" disabled/></label>
+                    <label class="stars"><input type="radio" name="star1" value="3" disabled/></label>
+                    <label class="stars"><input type="radio" name="star1" value="4" checked disabled/></label>
+                    <label class="stars"><input type="radio" name="star1" value="5" disabled/></label>
+                 </div>
+            </div>
+            <div class="custFeed">
+                <h3>Jotaro</h3> 
+                <p>
+                    YES! YES! YES! YES! YES!
+                </p>
+                <br>
+                <div class="rating">
+                    <p><b>Service Rating &nbsp;</b></p>
+                    <label class="stars"><input type="radio" name="star2" value="1" disabled/></label>
+                    <label class="stars"><input type="radio" name="star2" value="2" disabled/></label>
+                    <label class="stars"><input type="radio" name="star2" value="3" disabled/></label>
+                    <label class="stars"><input type="radio" name="star2" value="4" checked disabled/></label>
+                    <label class="stars"><input type="radio" name="star2" value="5" disabled/></label>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="yourFeed">
+        <h1>Your Feedback</h1>
+        <div id="userFeed">
+            <h3 id="uName">USERNAME: </h3>
+            <label for="feed">Your Feedback:</label>
+            <textarea name="feedback" id="userFeedback" placeholder="Enter Your Feedback Here..."></textarea>
+            <div class="rating">
+                <p><b>Service Rating &nbsp;</b></p>
+                <label class="stars"><input type="radio" id="1s" name="star" value="1" /></label>
+                <label class="stars"><input type="radio" id="2s" name="star" value="2" /></label>
+                <label class="stars"><input type="radio" id="3s" name="star" value="3" checked/></label>
+                <label class="stars"><input type="radio" id="4s" name="star" value="4" /></label>
+                <label class="stars"><input type="radio" id="5s" name="star" value="5" /></label>
+            </div>
+            <div class="buttons">
+                <button type="button" class="cancelbtn" onclick="clearTXT()">Cancel</button>
+                <button type="button" value="Submit" onclick="addFeedback()">Submit</button>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <a href=""><img src="images/Playstore.png" /></a>
+                    <a href=""><img src="images/Applestore.png" /></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo.png" />
+                <p>
+                Cultivating bookworms by bringing the joy of reading to everyone
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                <li><a href="">Coupons</a></li>
+                <li><a href="">Blog Post</a></li>
+                <li><a href="">Return Policy</a></li>
+                <li><a href="">Join Our Team</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Youtube</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Twitterr</a></li>
+                </ul>
+            </div>
+            </div>
+            <hr />
+            <p class="copyright">Copyright 2024 - BookWorm</p>
+        </div>
+    </div>
+        <!-- toggle menu javascript-->
+        <script type="text/javascript" src="js/menu.js"></script>
+        <!-- toggle about javascript -->
+        <script type="text/javascript" src="js/feedback.js"></script>
+
+    </body>
+</html>

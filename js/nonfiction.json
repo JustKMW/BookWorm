@@ -1,0 +1,114 @@
+{
+    "new":[
+        {
+            "id":"nn1",
+            "name":"ON THE ORIGIN OF TIME: STEPHEN HAWKING'S FINAL THEORY",
+            "image":"../images/OnTheOriginOfTime.jpg",
+            "author":"Thomas Hertog",
+            "price":72.95,
+            "summary":"NEW YORK TIMES BESTSELLER • Stephen Hawking&apos;s closest collaborator offers the intellectual superstar&apos;s final thoughts on the cosmos—a dramatic revision of the theory he put forward in A Brief History of Time . <br><br> “This superbly written book offers insight into an extraordinary individual, the creative process, and the scope and limits of our current understanding of the cosmos.”—Lord Martin Rees <br><br> Perhaps the biggest question Stephen Hawking tried to answer in his extraordinary life was how the universe could have created conditions so perfectly hospitable to life. In order to solve this mystery, Hawking studied the big bang origin of the universe, but his early work ran into a crisis when the math predicted many big bangs producing a multiverse—countless different universes, most of which would be far too bizarre to harbor life. <br><br> Holed up in the theoretical physics department at Cambridge, Stephen Hawking and his friend and collaborator Thomas Hertog worked on this problem for twenty years, developing a new theory of the cosmos that could account for the emergence of life. Peering into the extreme quantum physics of cosmic holograms and venturing far back in time to our deepest roots, they were startled to find a deeper level of evolution in which the physical laws themselves transform and simplify until particles, forces, and even time itself fades away. This discovery led them to a revolutionary The laws of physics are not set in stone but are born and co-evolve as the universe they govern takes shape. As Hawking&apos;s final days drew near, the two collaborators published their theory, which proposed a radical new Darwinian perspective on the origins of our universe. <br><br> On the Origin of Time offers a striking new vision of the universe&apos;s birth that will profoundly transform the way we think about our place in the order of the cosmos and may ultimately prove to be Hawking&apos;s greatest legacy.",
+            "quantity":0
+        },
+        {
+            "id":"nn2",
+            "name":"MISADVENTURES IN THE SCIENCE OF EMOTION: EMOTIONAL IGNORANCE",
+            "image":"../images/EMOTIONAL.jpg",
+            "author":"Dean Burnett",
+            "price":64.95,
+            "summary":"Why can&apos;t we think straight when hungry? What&apos;s the point of nightmares? And why is it so impossible to forget embarrassing memories? <br><br> Emotions can be a pain. After losing his dad to Covid-19, Dean Burnett found himself wondering what life would be like without them. And so, he decided to put his feelings under the microscope - for science. <br><br> In Emotional Ignorance, Dean takes us on an incredible journey of discovery, stretching from the origins of life to the end of the universe. Along the way he reveals: why we would ever follow our gut; whether things really were better in the old days; why doomscrolling is so addictive; and how sad music can make us happier. <br><br> Combining expert analysis, brilliant humour and powerful insights into the grieving process, Dean uncovers how, far from holding us back, our emotions make us who we are.",
+            "quantity":0
+        },
+        {
+            "id":"nn3",
+            "name":"PHILOSOPHY AND LIFE: EXPLORING THE GREAT QUESTIONS OF HOW TO LIVE",
+            "image":"../images/PhilosophyAndLife.jpg",
+            "author":"A.C. Grayling",
+            "price":72.00,
+            "summary":"How should I live my life? What values shall I live by? What sort of person should I be? What shall I aim for?In this summation of a lifetime thinking and writing about these great questions, A. C. Grayling explores with clarity and depth the ideas that each of us must use in answering it for ourselves.Drawing on the lives, experiences and works of a fantastically eclectic range of thinkers - taking in not only philosophers such as Confucius, Seneca and Nietzsche, but also authors from Shakespeare to Ursula LeGuin, and modern thinkers such as Martha Nussbaum and Simon May - Philosophy and Life brings together wisdom from across eras and continents in a tour de force on the philosophy of how to live your life.",
+            "quantity":0
+        },
+        {
+            "id":"nn4",
+            "name":"HOW WE LOVE MATTERS",
+            "image":"../images/HowWeLoveMatters.jpg",
+            "author":"Albert Tate, Lecrae Moore",
+            "price":89.95,
+            "summary":"This powerful book reimagines discipleship by begging us to acknowledge that racism exists in the Church—and offers the hopeful message that we can disciple it out. It is not an accident that racism is alive and well in the American church. Racism has, in fact, been taught within the church for so long most of us don&apos;t even recognize it anymore. Pastor Albert Tate guides all of us in acknowledging the racism that keeps us from loving each other the way God intends and encourages siblings in Christ to sit together in racial discomfort, examining the role we may play in someone&apos;s else&apos;s struggle. How We Love Matters is a series of nine moving letters that educate, enlighten, and reimagine discipleship in a way that flips the church on its head. In these letters that include Dear Whiteness, Dear America, and Dear Church, Tate calls out racism in the world, the church, within himself and us. These letters present an anti-racist mission and vision for believers to follow that helps us to speak up at the family table and call out this evil so it will not persist in future generations. Tate believes that the only way to make change is by telling the truth about where we are—relationally, internally, and spiritually. How We Love Matters is an exposition of relevant Biblical truth, a clarion call for all believers to examine how they see and understand each other, and it is a way forward toward justice, reconciliation, and healing. Because, yes, it is important that we love each other, but it is even more important how we love each other.",
+            "quantity":0
+        },
+        {
+            "id":"nn5",
+            "name":"59 THINGS YOU SHOULD KNOW ABOUT YOUR CAT",
+            "image":"../images/YourCat.jpg",
+            "author":"Alison Davies, Namasri Niumim",
+            "price":70.50,
+            "summary":"Curious, cute, and seriously quirky, cats are a conundrum wrapped in fur. Do you want to learn more about your feline friends? <br><br> Often a confusing mixture of affectionate and aloof, spending much of the day snoozing yet being right there where a can of food is opened, cats are the definition of unknowable—or are they? Some things you may not have known about your <br><br> Cats have a reputation as discerning eaters but they actually have very few taste buds and no sweet tooth at allCats can be either left or right-pawedFrom mimicking your voice in their meows to being the ultimate masters of self-care, cats know exactly how to get what they wantThis beautiful and fun cat book presents 59 little-known facts to help you better understand your mysterious feline companion. It's the purrfect gift for the cat lover in your life.",
+            "quantity":0
+        },
+        {
+            "id":"nn6",
+            "name":"THE EARTH TRANSFORMED: AN UNTOLD HISTORY",
+            "image":"../images/TheEarthTransformed.jpg",
+            "author":"Peter Frankopan",
+            "price":72.90,
+            "summary":"A revolutionary new history that reveals how climate change has dramatically shaped the development—and demise—of civilizations across time Global warming is one of the greatest dangers mankind faces today. Even as temperatures increase, sea levels rise, and natural disasters escalate, our current environmental crisis feels difficult to predict and understand. But climate change and its effects on us are not new. In a bold narrative that spans centuries and continents, Peter Frankopan argues that nature has always played a fundamental role in the writing of history. From the fall of the Moche civilization in South America that came about because of the cyclical pressures of El Niño to volcanic eruptions in Iceland that affected Egypt and helped bring the Ottoman empire to its knees, climate change and its influences have always been with us. Frankopan explains how the Vikings emerged thanks to catastrophic crop failure, why the roots of regime change in Eleventh-Century Baghdad lay in the collapse of cotton prices resulting from unusual climate patterns, and why the western expansion of the frontiers in North America was directly affected by solar flare activity in the eighteenth century. Again and again, Frankopan shows that when past empires have failed to act sustainably, they have been met with catastrophe. Blending brilliant historical writing and cutting-edge scientific research, Climate will radically reframe the way we look at the world and our future.",
+            "quantity":0
+        }
+    ],
+    "best":[
+        {
+            "id":"nb1",
+            "name":"NEVER: THE AUTOBIOGRAPHY",
+            "image":"../images/rick.jpg",
+            "author":"Rick Astley",
+            "price":142.95,
+            "summary":"Fame didn&apos;t actually make me happy. I was an insecure twenty-year-old and being famous made things worse. It was an era all about the way you looked and I still don&apos;t know how I squeezed through. I did enjoy myself for a lot of it, but, at some point, you&apos;re looking in the mirror and going: &apos;Is this it, then?&apos; Clichéd as this sounds, success is never going to mend something that is broken. You just have to work that out for yourself. And something was a bit broken in me - I think it is with almost everybody who gets on the stage. <br><br> Balancing nostalgia, fresh perspectives and introspection, Never begins with family and unconventional upbringings; journeys through the tumultuous and glamorous world of pop; and takes pause for self-reflection. Rick goes beyond the blinding lights of the stage - giving an intimate look at the man behind the hits - and is a portrait of truth, artistic evolution and the astounding power of contentment.",
+            "quantity":0
+        },
+        {
+            "id":"nb2",
+            "name":"THE SUBTLE ART OF NOT GIVING A F*CK:",
+            "image":"../images/fck.jpg",
+            "author":"Mark Manson",
+            "price":82.50,
+            "summary":"In this generation-defining self-help guide, a superstar blogger cuts through the crap to show us how to stop trying to be &quot;positive&quot; all the time so that we can truly become better, happier people. For decades, we&apos;ve been told that positive thinking is the key to a happy, rich life. &quot;F**k positivity,&quot; Mark Manson says. &quot;Let&apos;s be honest, shit is f**ked and we have to live with it.&quot; In his wildly popular Internet blog, Manson doesn&apos;t sugarcoat or equivocate. He tells it like it is—a dose of raw, refreshing, honest truth that is sorely lacking today. The Subtle Art of Not Giving a F**k is his antidote to the coddling, let&apos;s-all-feel-good mindset that has infected American society and spoiled a generation, rewarding them with gold medals just for showing up. Manson makes the argument, backed both by academic research and well-timed poop jokes, that improving our lives hinges not on our ability to turn lemons into lemonade, but on learning to stomach lemons better. Human beings are flawed and limited—&quot;not everybody can be extraordinary, there are winners and losers in society, and some of it is not fair or your fault.&quot; Manson advises us to get to know our limitations and accept them. Once we embrace our fears, faults, and uncertainties, once we stop running and avoiding and start confronting painful truths, we can begin to find the courage, perseverance, honesty, responsibility, curiosity, and forgiveness we seek. There are only so many things we can give a f**k about so we need to figure out which ones really matter, Manson makes clear. While money is nice, caring about what you do with your life is better, because true wealth is about experience. A much-needed grab-you-by-the-shoulders-and-look-you-in-the-eye moment of real-talk, filled with entertaining stories and profane, ruthless humor, The Subtle Art of Not Giving a F**k is a refreshing slap for a generation to help them lead contented, grounded lives.",
+            "quantity":0
+        },
+        {
+            "id":"nb3",
+            "name":"THE MALAY DILEMMA",
+            "image":"../images/TheMalayDilemma.jpg",
+            "author":" Mahathir bin Muhammad",
+            "price":69.90,
+            "summary":"In The Malay Dilemma, former prime minister Mahathir Mohamad examines and analyses the make-up of the Malays and the problem of racial harmony in Malaysia. First published in 1970, the book seeks to explain the causes for the 13 May 1969 riots in Kuala Lumpur. Dr Mahathir sets out his view as to why the Malays are economically backward and why they feel they must insist upon immigrants becoming real Malaysians speaking in due course nothing but Malay, as do immigrants to America or Australia speak nothing but the language of what the author calls “the definitive people”. He argues that the Malays are the rightful owners of Malaya. He also argues that immigrants are guests until properly absorbed, and that they are not properly absorbed until they have abandoned the language and culture of their past.",
+            "quantity":0
+        },
+        {
+            "id":"nb4",
+            "name":"CAPTURING HOPE: THE STRUGGLE CONTINUES FOR A NEW MALAYSIA",
+            "image":"../images/capturingHope.jpg",
+            "author":"Tun Dr Mahathir Mohamad",
+            "price":100.00,
+            "summary":"Capturing Hope follows chronologically the events described in Tun Dr Mahathir Mohamad&apos;s best-selling book, A Doctor in the House. This standalone work chronicles not just the unexpected journey of Dr Mahathir back to the premiership but also the great changes taking place within Malaysia today. The story starts with his retirement, which finally gave him the time and means to pursue matters close to his heart—the plight of the Palestinian people, and the criminalisation of war—before the country&apos;s troubles soon pulled him back into the maelstrom of Malaysian national politics. Unable to sit idly by as his country plummeted towards disaster, Dr Mahathir found himself in the unique position of opposing the very party he led for 22 years. More astonishing was his victory in Malaysia&apos;s 14th General Election and his return at the age of 92 as the seventh Prime Minister of Malaysia, making him the oldest serving head of government in the world at the time. This book offers a frank and at times blunt discussion of the difficulties that the Pakatan Harapan Government faced, the challenges of rebuilding national political consensus, the betrayals from within the coalition that ultimately led to the Government&apos;s downfall in March 2020 and to the many unthinkable firsts in Malaysian politics. Whether one agrees with Dr Mahathir or not, it is impossible to deny the impact he has had—and continues to have—on the Malaysian political landscape. This book seeks to discuss those impacts as well as Dr Mahathir&apos;s unfinished struggle to steer Malaysia away from the destructive political dynamics that have fuelled corruption and division in the country for so long.",
+            "quantity":0
+        },
+        {
+            "id":"nb5",
+            "name":"FINAL RECKONING: AN INSIDER&apos;S VIEW OF THE FALL OF MALAYSIA&apos;S BARISAN NASIONAL GOVERNMENT",
+            "image":"../images/finalReckoning.jpg",
+            "author":"Romen Bose",
+            "price":108.95,
+            "summary":"An unparalleled political blockbuster of intrigue, disaster, incompetence and the biggest financial scandal the world has ever seen. Romen Bose worked as a Political Communications Consultant for former Malaysian Premier Najib Razak for six years and was a close confidante to decision makers in the upper echelon of the country's political elite. Romen was present during the major controversies that hit the Najib Razak administration, witnessing first-hand how the country's leadership reacted to the disappearance of MH370 and the step by step actions of its topmost officials, as well as classified covert actions taken to retrieve the remains of Malaysian victims following the shooting down of MH17. In Final Reckoning, the author gives a blow-by-blow account of how the 1MDB scandal rocked the Government and the attempts by the country's top politicians and their advisers to contain and explain it away. Through numerous conversations with key players and his presence at various top secret meetings following the global investigations into the scandal, Romen pieces together for the first time how a sitting Prime Minister became the unwitting patsy of a mastermind who had managed to pull off the single biggest con of the century. In doing so, Romen tells the story of an ultimately futile scramble to try and preserve a crumbling political legacy that had long been out of step with the realities of a new Malaysia. This book is the story of the wild roller-coaster ride that marked the Barisan Nasional Government's rule, from the 2013 General Elections, until its 61-year old rule came to an end on the night of 9 May 2018.",
+            "quantity":0
+        },
+        {
+            "id":"nb6",
+            "name":"THE APPLE AND THE TREE: LIFE AS DR MAHATHIR'S DAUGHTER",
+            "image":"../images/TheAppleAndTheTree.jpg",
+            "author":"Marina Mahathir",
+            "price":104.95,
+            "summary":"When an apple falls, does it roll far or stay close to its tree?Is it an exact clone of all the other apples the tree produces or something entirely different?This is the question that has perplexed the public about Marina for the simple reason that she is the daughter of the man who has governed Malaysia for almost twenty-four years. Does she echo him in his view of the world, or does she chart her own path?Why is it that in her own public life, in her writing and speeches, she expresses opinions that seem to contradict his?This book hopes to detail how she has navigated her life as the daughter of a charismatic politician and a loving father, even as sometimes she has chafed at being constantly under his shadow. It talks about how she has struggled to find her own identity, to defend her worldview at times and to reconcile them with his at others.She tells the story of growing up as the daughter of Malaysia's most influential leader, from the values instilled in her as a child, right up to the day he was forced to step down as the 7th Prime Minister after leading the historic ouster of the government he used to lead.",
+            "quantity":0
+        }
+    ]
+}

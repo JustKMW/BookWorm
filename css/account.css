@@ -1,0 +1,162 @@
+/* Account Form */
+
+body {
+  background-image: url(../images/dirtBack.jpeg);
+}
+
+.containAcc {
+  width: 50%;
+  min-width: 400px;
+
+  margin: 0 auto;
+  padding: 0 3rem;
+  background-image: url("../images/birchBack.jpg");
+  border-radius: 15px;
+}
+
+.account-form {
+  padding: 25px 0;
+  margin: 50px auto;
+  position: relative;
+
+}
+
+.account-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-form form h1 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+
+/* .account-form form p {
+font-size: 15px;
+margin-bottom: 12px;
+color: #373232;
+} */
+
+.account-form form label {
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+.account-form form input {
+  border: 1px solid;
+  outline: none;
+  padding: 16px 0;
+  text-indent: 20px;
+  font-size: 12px;
+  margin-bottom: 16px;
+  border-radius: 15px;
+  background-image: url("../images/paperBack.png");
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.account-form form input::placeholder {
+  font-size: 12px;
+}
+
+.account-form form .buttons {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.account-form form button {
+  outline: none;
+  border: none;
+  font-size: 12px;
+  padding: 14px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #ff523b;
+  color: whitesmoke;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+a {
+  color: rgb(157, 28, 200);
+  font-weight: 900;
+}
+
+/*Shown when class .signInMsg input is invalid*/
+.signMsg {
+  display: none;
+  background-image: url("../images/cobblestoneBack.png");
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.signMsg h3 {
+  padding: 10px 35px;
+  font-size: 18px;
+  color: white;
+}
+
+/* the repeat_msg is shown when the two passwords aren't identical*/
+#repeat_msg {
+  display: none;
+  background-image: url("../images/cobblestoneBack.png");
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#repeat_msg h3 {
+  padding: 10px 35px;
+  font-size: 18px;
+  color: white;
+}
+
+/* The psw_message box is shown when the user clicks on the password field */
+#psw_message {
+  display: none;
+  background-image: url("../images/cobblestoneBack.png");
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#psw_message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  padding: 50px;
+  color: limegreen;
+  background-color: rgb(255, 223, 80);
+  opacity: 75%;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+

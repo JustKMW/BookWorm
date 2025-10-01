@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | BookWorm</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+    <!------------------ Header ------------------>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="home.html">
+                        <img src="images/logo.png" alt="BookWormLogo">
+                    </a>
+                </div>
+                <!----------  Nav Bar ------------------>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="product/fiction.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><a href="signIn.html" style="color: red;"
+                                onclick="return confirm('Are you SURE you want to Sign Out?');">[Sign Out]</a></li>
+                    </ul>
+                </nav>
+                <a href="product/cart.html">
+                    <img id="cart-img" src="images/cart.png" alt="Shopping Cart" />
+                </a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <h1>About Us</h1>
+        <p class="bw">
+            BookWorm
+        </p>
+        <div class="about-info">
+
+            <p>
+                Welcome to BookWorm, your online destination for a handful of popular books that have resonated with the
+                hearts of readers in our physical store. We are a unique bookstore that believes in the timeless power
+                of a good book and the special touch of a physical bookstore&apos;s charm.
+            </p>
+
+        </div>
+    </section>
+
+    <table>
+        <tr>
+            <th colspan="3">MORE ABOUT US</th>
+        </tr>
+        <tr>
+            <td><button id="oStory" type="button" class="inactiveBTN" onclick="showStory()">Our Story</button></td>
+            <td><button id="oPhilosophy" type="button" class="inactiveBTN" onclick="showPhilosophy()">Our
+                    Philosophy</button></td>
+            <td><button id="oPromise" type="button" class="inactiveBTN" onclick="showPromise()">Our Promise</button>
+            </td>
+        </tr>
+        <tr id="story" hidden>
+            <td class="ourContent" colspan="3">
+                BookWorm began as a small, independent bookstore. Our shelves were always filled with a carefully
+                curated selection of books that resonates with our local community. Over time, we became a beloved spot
+                for book lovers who appreciated our handpicked collection. As our community of readers grew, we realized
+                that our reach could extend beyond the confines of our physical store. We wanted to share our love for
+                these special books with readers everywhere. Thus, BookWorm Online was born.
+            </td>
+        </tr>
+        <tr id="philosophy" hidden>
+            <td class="ourContent" colspan="3">
+                At BookWorm, we believe in quality over quantity. That&apos;s why we only offer a handful of books
+                online - the ones that are most popular in our physical store. These are the books that have sparked
+                joy, inspired debates, and touched hearts in our community. Now, we&apos;re bringing these books to you,
+                wherever you are.
+            </td>
+        </tr>
+        <tr id="promise" hidden>
+            <td class="ourContent" colspan="3">
+                We are committed to providing you with a seamless and enjoyable reading experience. Each book you find
+                on BookWorm Online has been chosen with care, ensuring that we offer only the best for our online
+                community of BOOKWORMS.
+                <br>
+                Join us in our journey of spreading the love for good books. Happy reading!
+                <br>
+                With love, The BookWorm Team.
+            </td>
+        </tr>
+    </table>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <a href=""><img src="images/Playstore.png" /></a>
+                    <a href=""><img src="images/Applestore.png" /></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo.png" />
+                <p>
+                Cultivating bookworms by bringing the joy of reading to everyone
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                <li><a href="">Coupons</a></li>
+                <li><a href="">Blog Post</a></li>
+                <li><a href="">Return Policy</a></li>
+                <li><a href="">Join Our Team</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Youtube</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Twitterr</a></li>
+                </ul>
+            </div>
+            </div>
+            <hr />
+            <p class="copyright">Copyright 2024 - BookWorm</p>
+        </div>
+    </div>
+    <!-- toggle menu javascript-->
+    <script type="text/javascript" src="js/menu.js"></script>
+    <!-- toggle about javascript -->
+    <script type="text/javascript" src="js/about.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+@font-face {
+    font-family: sedanSC;
+    src: url(../font/SedanSC-Regular.ttf);
+}
+
+#productMenu li, #productMenu span{
+    margin-top: 26px;
+    font-size: 30px;   
+}
+#productMenu li:hover{
+    transform: scale(1,1);
+}
+
+.containProduct {
+    margin: 5% 10%;
+
+}
+
+.containProduct h1{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 45px;
+}
+
+.containProduct h2{
+    font-size: 25px;
+    background-color: #FF7F7F;
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 15px;
+}
+
+.item{
+    margin: 10px 35px 60px;
+}
+
+.item p{
+    font-family: cursive, sans-serif;
+    color: black;
+    text-align: center;
+    font-family: sedanSC, cursive;
+}
+
+.item img{
+    width: 200px;
+    height: 300px;
+    border: 3px solid;
+}
+
+.add{
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid;
+    height: 30px;
+    width: 90px;
+    transition-duration: 1s;
+}
+
+.add:hover{
+    transform: scale(1.5,1.5);
+    background-color: rgb(237, 209, 174);
+    font-weight: bold;
+}
+
+
+
+/* Tooltip text */
+.tooltip {
+    padding: 1%;
+    display: none;
+    background-color: black;
+    color: wheat;
+    opacity: 0.8;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    overflow: auto;
+    text-align: center;
+    font-family: sedanSC, cursive;
+}
+.item:hover .tooltip{
+    display: block;
+}
+.tooltip::-webkit-scrollbar{width:5px;}
+.tooltip::-webkit-scrollbar-track{background: skyblue;}
+.tooltip::-webkit-scrollbar-thumb {background: #FF7F7F;}
+
+
+.bestProducts h3, .newProducts h3{
+    text-align: center;
+    font-family: sedanSC, cursive;
+    width: 200px;
+}
+
+/* Styles between 740 to 1050 */
+.bestProducts, .newProducts{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+/*Mobile Styles: 0px to 740px*/
+@media only screen and (max-width: 740px) {
+    .bestProducts, .newProducts{
+    
+        display: grid;
+        grid-template-columns: auto auto ;
+        justify-content: center;
+    }
+    #productMenu li, #productMenu span{
+        font-size: 24px;   
+    }
+    
+}
+/*Tablet and Desktop Styles: greater than 1050px*/
+@media only screen and (min-width: 1050px) {
+    .bestProducts, .newProducts{
+    
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        justify-content: center;
+    }
+}

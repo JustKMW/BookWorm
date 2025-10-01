@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Back2School - Stationaries | BookWorm</title>
+        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/product.css" />
+    </head>
+
+    <body onload="loadB()">
+        <!------------------ Header ------------------>
+        <header>
+            <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="../home.html">
+                        <img src="../images/logo.png" alt="BookWormLogo">
+                    </a>
+                </div>
+                <!----------  Nav Bar ------------------>
+                <nav>
+                <ul id="MenuItems">
+                    <li><a href="../home.html">Home</a></li>
+                    <li><a href="../product/fiction.html">Products</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="../feedback.html">Feedback</a></li>
+                    <li><a href="../signIn.html" style = "color: red;" onclick="return confirm('Are you SURE you want to Sign Out?');">[Sign Out]</a></li>
+                </ul>
+                </nav>
+                <a href="cart.html">
+                <img id="cart-img" src="../images/cart.png" alt="Shopping Cart"/>
+                </a>
+                <img src="../images/menu.png" class="menu-icon" onclick="menutoggle()" />
+            </div>
+            </div>
+        </header>
+
+        <!-- product navigation -->
+        <div class="productNav">
+            <nav>
+                <ul id="productMenu">
+                    <li><a href="b2s.html">Back-to-School</a></li>
+                    <span>|</span>
+                    <li><a href="fiction.html">Fiction</a></li>
+                    <span>|</span>
+                    <li><a href="nonfiction.html">Non-Fiction</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <a href=""><img src="../images/Playstore.png" /></a>
+                        <a href=""><img src="../images/Applestore.png" /></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../images/logo.png" />
+                    <p>
+                        Cultivating bookworms by bringing the joy of reading to everyone
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                    <li><a href="">Coupons</a></li>
+                    <li><a href="">Blog Post</a></li>
+                    <li><a href="">Return Policy</a></li>
+                    <li><a href="">Join Our Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Youtube</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitterr</a></li>
+                    </ul>
+                </div>
+                </div>
+                <hr />
+                <p class="copyright">Copyright 2024 - BookWorm</p>
+            </div>
+        </div>
+        <!-- toggle menu javascript-->
+        <script type="text/javascript" src="../js/menu.js"></script>
+        <script type="text/javascript" src="../js/product.js"></script>
+    </body>
+</html>
+    

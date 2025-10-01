@@ -1,0 +1,31 @@
+{
+    "new":[
+        {
+            "id":"nn1",
+            "name":"ON THE ORIGIN OF TIME: STEPHEN HAWKING'S FINAL THEORY",
+            "image":"../images/OnTheOriginOfTime.jpg",
+            "author":"Thomas Hertog",
+            "price":72.95,
+            "summary":"NEW YORK TIMES BESTSELLER • Stephen Hawking&apos;s closest collaborator offers the intellectual superstar&apos;s final thoughts on the cosmos—a dramatic revision of the theory he put forward in A Brief History of Time . <br><br> “This superbly written book offers insight into an extraordinary individual, the creative process, and the scope and limits of our current understanding of the cosmos.”—Lord Martin Rees <br><br> Perhaps the biggest question Stephen Hawking tried to answer in his extraordinary life was how the universe could have created conditions so perfectly hospitable to life. In order to solve this mystery, Hawking studied the big bang origin of the universe, but his early work ran into a crisis when the math predicted many big bangs producing a multiverse—countless different universes, most of which would be far too bizarre to harbor life. <br><br> Holed up in the theoretical physics department at Cambridge, Stephen Hawking and his friend and collaborator Thomas Hertog worked on this problem for twenty years, developing a new theory of the cosmos that could account for the emergence of life. Peering into the extreme quantum physics of cosmic holograms and venturing far back in time to our deepest roots, they were startled to find a deeper level of evolution in which the physical laws themselves transform and simplify until particles, forces, and even time itself fades away. This discovery led them to a revolutionary The laws of physics are not set in stone but are born and co-evolve as the universe they govern takes shape. As Hawking&apos;s final days drew near, the two collaborators published their theory, which proposed a radical new Darwinian perspective on the origins of our universe. <br><br> On the Origin of Time offers a striking new vision of the universe&apos;s birth that will profoundly transform the way we think about our place in the order of the cosmos and may ultimately prove to be Hawking&apos;s greatest legacy.",
+            "quantity":0
+        },
+        {
+            "id":"nn2",
+            "name":"MISADVENTURES IN THE SCIENCE OF EMOTION: EMOTIONAL IGNORANCE",
+            "image":"../images/EMOTIONAL.jpg",
+            "author":"Dean Burnett",
+            "price":64.95,
+            "summary":"Why can&apos;t we think straight when hungry? What&apos;s the point of nightmares? And why is it so impossible to forget embarrassing memories? <br><br> Emotions can be a pain. After losing his dad to Covid-19, Dean Burnett found himself wondering what life would be like without them. And so, he decided to put his feelings under the microscope - for science. <br><br> In Emotional Ignorance, Dean takes us on an incredible journey of discovery, stretching from the origins of life to the end of the universe. Along the way he reveals: why we would ever follow our gut; whether things really were better in the old days; why doomscrolling is so addictive; and how sad music can make us happier. <br><br> Combining expert analysis, brilliant humour and powerful insights into the grieving process, Dean uncovers how, far from holding us back, our emotions make us who we are.",
+            "quantity":0
+        },
+        {
+            "id":"nn3",
+            "name":"PHILOSOPHY AND LIFE: EXPLORING THE GREAT QUESTIONS OF HOW TO LIVE",
+            "image":"../images/PhilosophyAndLife.jpg",
+            "author":"A.C. Grayling",
+            "price":72.00,
+            "summary":"How should I live my life? What values shall I live by? What sort of person should I be? What shall I aim for?In this summation of a lifetime thinking and writing about these great questions, A. C. Grayling explores with clarity and depth the ideas that each of us must use in answering it for ourselves.Drawing on the lives, experiences and works of a fantastically eclectic range of thinkers - taking in not only philosophers such as Confucius, Seneca and Nietzsche, but also authors from Shakespeare to Ursula LeGuin, and modern thinkers such as Martha Nussbaum and Simon May - Philosophy and Life brings together wisdom from across eras and continents in a tour de force on the philosophy of how to live your life.",
+            "quantity":0
+        }
+    ]
+}
